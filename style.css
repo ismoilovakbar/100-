@@ -1,0 +1,654 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.heater{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 300px;
+    padding: 20px ;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 150px;
+    padding: 10px ;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+
+}
+.logo h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+
+.home hr{
+    border: 2px solid red;
+    margin-bottom: 10px;
+    background-color: red;
+}
+
+.logo button{
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: solid red;
+
+}
+
+
+
+.main{
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+}
+
+.main button:hover{
+    background-color: rgb(236, 31, 31);
+    transition: 1s;
+}
+
+
+.main h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 20px auto;
+ 
+}
+
+.main p{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.main button{
+    width: 180px;
+    height: 50px;
+    margin: 30px auto;
+    font-size: 25px;
+    text-transform: uppercase;
+    /* background-color: red; */
+    background-color: transparent;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    border: 2px solid rgb(243, 11, 11);
+    cursor: pointer;
+
+
+}
+
+
+
+.img-text{
+    display: flex;
+   justify-content: center;
+    margin: 90px auto;
+    cursor: pointer;
+   
+}
+
+.img1 img{
+    width: 400px;
+    height: 250px;
+    margin-right: 20px;
+    box-shadow: 5px 0 30px 0px black;
+  
+}
+
+.img2 img{
+    width: 400px;
+    height: 250px;
+    box-shadow: 5px 0 30px 0px black;
+    
+}
+
+
+.img3 img{
+    width: 400px;
+    height: 250px;
+    box-shadow: 5px 0 30px 0px black;
+    margin-left: 20px;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+
+}
+
+
+.card h2{
+    margin-top: 350px;
+    font-size: 30px;
+    width: 200px;
+    height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+    
+}
+
+
+.card-img{
+    margin-top: 400px;
+    margin-right: 30px;
+    position: absolute;
+}
+
+
+.card2{
+    margin-top: 200px;
+    margin-left: 350px;
+    background-color: rgb(240, 219, 34);
+    width: 550px;
+    height: 500px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+.card2 p{
+    margin: 40px 20px;
+}
+
+
+.whats{
+    background-color: rgb(38, 37, 37);
+    position: relative;
+    height: 760px;
+}
+
+.what{
+   margin: 70px auto;
+   padding-top: 3px;
+   padding-right: 100px;
+   margin-bottom: 100px;
+   
+}
+
+.imag img{
+    margin-left: 1160px;
+    width: 310px;
+    height: 230px;
+    position: absolute;
+    margin-top: 120px;
+}
+
+.image img{
+    margin-left: 1190px;
+    position: absolute;
+    margin-top: 110px;
+    width: 290px;
+    height: 250px;
+ 
+}
+
+.why h1{
+    margin-left: 200px;
+    font-size: 50px;
+    margin: 20px auto;
+    color: white;
+    
+}
+.why{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.why p{
+   
+    margin: 20px auto;
+    height: 60px;
+    margin-right: 320px;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.cards1 {
+    margin-left: 200px;
+    display: flex;
+    width: 550px;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.cards1 p{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 15px;
+
+}
+
+.card1{
+    color: white;
+    margin-left: 200px;
+    display: flex;
+    width: 500px;
+    margin-bottom: 40px;
+    width: 50%;
+    font-size: 15px;
+}
+
+.imgs{
+   background-image: url(6.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 1530px;
+   height: 250px;
+   margin-top: 50px;
+}
+
+.button button{
+    font-size: 20px;
+    padding: 17px 50px;
+    margin-left: 190px;
+    background-color: rgb(221, 199, 4);
+    color: white;
+    cursor: pointer;
+
+}
+
+.button button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+
+
+.hous-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 5px auto; */
+    width: 90%;
+   
+    
+
+}
+
+
+
+
+.loro img{
+    width: 650px;
+    height: 350px;
+    margin-bottom: 100px;
+    position: absolute;
+    box-shadow: 0 1px 10px 0 grey;
+    margin-right: 20px;
+   
+}
+
+.loro h2{
+    position: relative;
+    margin-top: 310px;
+    margin-left: 50px;
+  
+}
+
+
+.efect img{
+    width: 400px;
+    height: 350px;
+    margin-left: 135px;
+    position: absolute;
+    box-shadow: 0 0 30px 0 grey;
+    
+    
+   
+}
+.efect h2{
+    margin-left: 140px;
+    position: relative;
+    margin-top: 310px;
+    color: white;
+  
+   
+}
+
+.newyork img{
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 0 30px 0 grey;
+    position: absolute;
+    margin-left: 10px;
+    
+
+}
+
+.newyork h2{
+    position: relative;
+    margin-top: 310px;
+    color: white;
+    margin-right: 90px;
+    margin-left: 30px;
+   
+    
+}
+
+
+.fotos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    
+}
+
+
+.apple img{
+    width: 800px;
+    height: 350px;
+    box-shadow: 0 0 30px 0 grey;
+    position: absolute;
+    
+    
+}
+
+.apple h2{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 650px;
+    color: white;
+}
+
+
+
+.iphone img{
+    width: 670px;
+    height: 350px;
+    box-shadow: 0 0 30px 0 grey;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.iphone h2{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 650px;
+    color: white;
+    margin-right: 30px;
+}
+
+
+
+.hous h1{
+    font-size: 50px;
+    margin-bottom: 80px;
+    margin-left: 300px;
+    position: relative;
+    font-family: sans-serif;
+}
+
+
+
+.hous-img h2{
+    font-size: 26px;
+    text-transform: uppercase;
+  
+    
+}
+
+
+
+
+.fotos h2{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+
+
+
+.imggs img{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 170px;
+    
+   
+  }
+  
+  .border{
+     text-align: center;
+     font-size: 25px;
+     margin: 190px auto;
+     margin-top: 120px;
+  
+  }
+  
+  
+  .borde{
+     position: absolute;
+     width: 850px;
+     height: 700px;
+     margin-left: 420px;
+     margin-top: 120px;
+     font-size: 17px;
+     color: white;
+  
+  }
+  
+  
+  
+  .imggss img{
+      width: 900px;
+      height: 330px;
+      display: flex;
+      justify-content: center;
+      margin-left: 350px;
+    
+  }
+  
+  .phone{
+      margin-top: 290px;
+      position: absolute;
+      margin-left: 530px;
+      font-size: 20px;
+  
+  }
+  
+  
+  .contact{
+      margin-top: 130px;
+      height: 100vh;
+      background-color: black;
+      color: white;
+      /* margin-top: 1000px; */
+  }
+  
+  .contact-main{
+      width: 80%;
+      margin: 0 auto;
+      margin: 0px auto;
+      padding: 30px 0;
+  }
+  
+  .contact-text h1{
+      font-size: 50px;
+      outline: none;
+  }
+  
+  .first{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .first input{
+      width: 20%;
+      padding: 10px 0;
+      outline: none;
+  }
+  
+  .icons{
+      width: 20%;
+      /* border: 1px solid blue; */
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .icons i{
+      background-color: white;
+      color: black;
+      padding: 10px;
+      border-radius: 50%;
+  }
+  
+  .two{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+  }
+  
+  .two textarea{
+      width: 70%;
+  }
+  
+  .two input{
+      width: 25%;
+      padding: 20px 0;
+      background-color: orange;
+      color: white;
+      font-size: 20px;
+      outline: none;
+  }
+  
+  .contact-footer{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+  }
+  .addres{
+      width: 23%;
+      /* border: 1px solid blue; */
+      margin-top: 55px;
+  }
+  
+  .location{
+      display: flex;
+      align-items: center;
+      margin: 25px 0;
+  }
+  
+  .location p{
+      margin-left: 12px;
+  }
+  .location i{
+      font-size: 25px;
+  }
+  
+  .link{
+      width: 21%;
+      border-left: 2px solid white;
+      margin-top: 60px;
+  }
+  
+  .link h2{
+      margin-left: 15px;
+  }
+  
+  ul li{
+     margin: 10px;
+  }
+  
+  ul{
+      list-style: none;
+      margin-left: 10px;
+  }
+  
+  ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+  }
+  
+  .newslater{
+      width: 21%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 55px;
+  
+  }
+  
+  .newslater input:nth-child(1){
+      width: 100%;
+      padding: 20px;
+  }
+  
+  .newslater input:nth-child(2){
+      width: 80%;
+      padding: 20px;
+      font-size: 15px;
+      background-color: orange;
+      border: 1px solid orange;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
